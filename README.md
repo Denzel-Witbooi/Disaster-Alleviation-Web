@@ -4,7 +4,7 @@ This project is from my APPLIED PROGRAMMING module - [Demo](https://youtu.be/nUP
 
 # Disaster Alleviation Foundation
 
-The Disaster Alleviation Foundation1, a non-profit organisation, has approached you to build a system for them. The foundation’s mission is to provide practical aid during disasters. They receive donations from various sources and need a system to track what is available and what has been dispatched to help with which disaster.
+The Disaster Alleviation Foundation, a non-profit organisation, has approached you to build a system for them. The foundation’s mission is to provide practical aid during disasters. They receive donations from various sources and need a system to track what is available and what has been dispatched to help with which disaster.
 
 Donations can be made by individuals, companies, other organisations, and even governments. Donations can be goods (clothes, non-perishable foods, etc.) or monetary. Donors can choose to remain anonymous.
 
