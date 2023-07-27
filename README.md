@@ -1,6 +1,6 @@
 # Disaster Alleviation Website
 ## About the project
-This project is from my APPLIED PROGRAMMING module 
+This project is from my APPLIED PROGRAMMING module - [Demo](https://youtu.be/nUPYDKHNbQI)
 
 # Disaster Alleviation Foundation
 
@@ -42,5 +42,5 @@ The Disaster Alleviation Foundation has transparency as one of its core values. 
 
 © The Independent Institute of Education (Pty) Ltd 2022
 
-### [Previous .NET 5 Project] (https://github.com/Denzel-Witbooi/DisasterReliefWebApp)
+[Previous .NET 5 Project](https://github.com/Denzel-Witbooi/DisasterReliefWebApp)
 
