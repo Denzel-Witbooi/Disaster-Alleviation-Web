@@ -1,4 +1,6 @@
 # Disaster Alleviation Website
+![image](https://github.com/Denzel-Witbooi/Disaster-Alleviation-Web/assets/77748858/d8d2a924-b5af-447f-891c-38eb87b163ce)
+
 ## About the project
 This project is from my APPLIED PROGRAMMING module - [Demo](https://youtu.be/nUPYDKHNbQI)
 
