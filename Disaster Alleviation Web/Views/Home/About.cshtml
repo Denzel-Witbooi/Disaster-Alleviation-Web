@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Disaster_Alleviation_Web.Models.ReliefViewModels.DonationGroup>
+
+@{
+    ViewBag.Title = "Disaster Relief Statistics";
+}
+
+<h2>Disaster Relief Statistics</h2>
+
+<table>
+    <tr>
+        <th>
+            Donated Date
+        </th>
+        <th>
+            Goods
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DonationDate)
+            </td>
+            <td>
+                @item.GoodsCount
+            </td>
+        </tr>
+    }
+</table>

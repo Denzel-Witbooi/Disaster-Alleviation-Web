@@ -1,0 +1,53 @@
+﻿@model Disaster_Alleviation_Web.Models.Donation.Good
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+<div>
+    <h4>Goods</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DonationDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DonationDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NumberOfItems)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NumberOfItems)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DonorName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DonorName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Category)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Category.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Disaster)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Disaster.Description)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.GoodID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
