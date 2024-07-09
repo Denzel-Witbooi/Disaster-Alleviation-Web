@@ -7,7 +7,7 @@ This project is from my APPLIED PROGRAMMING module - [Demo](https://youtu.be/nUP
 ## Tech Stack
 **Client**: HTML, C# (ASP.NET 5 + Identity), CSS, Bootstrap
 
-**Server**: Azure SQL, Azure Devops, Azure App Services
+**Server**: Azure SQL Database, Azure Devops (automatically build and test code), Boards, Azure App Services, Azure repos for version control
 
 ## Features
 - Users can log in securely to the web application and edit information.
