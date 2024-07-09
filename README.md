@@ -4,6 +4,21 @@
 ## About the project
 This project is from my APPLIED PROGRAMMING module - [Demo](https://youtu.be/nUPYDKHNbQI)
 
+## Tech Stack
+**Client**: HTML, C# (ASP.NET 5 + Identity), CSS, Bootstrap
+
+**Server**: Azure SQL, Azure Devops, Azure App Services
+
+## Features
+- Users can log in securely to the web application and edit information.
+- Users can make monetary and goods donations.
+- Users can choose whether to donate publicly or anonymously.
+- When donating goods, users can select from pre-configured categories or make their own.
+- Users can load new disasters on the system.
+- Non registered users, can view pages showing them the:
+  -   Total monetary and goods donations received.
+  -   Currently active disasters, with all donations allocated to them.
+ 
 # Disaster Alleviation Foundation
 
 The Disaster Alleviation Foundation, a non-profit organisation, has approached you to build a system for them. The foundation’s mission is to provide practical aid during disasters. They receive donations from various sources and need a system to track what is available and what has been dispatched to help with which disaster.
