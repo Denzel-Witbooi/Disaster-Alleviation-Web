@@ -1,63 +1,101 @@
-# Disaster Alleviation Website
-![image](https://github.com/Denzel-Witbooi/DisasterReliefWebApp/assets/77748858/1cf976cb-3aa9-49bf-875d-2fa9ef82a35a)
+# 🆘 Disaster Alleviation Web Application
 
-## About the project
-This project is from my APPLIED PROGRAMMING module - [Demo](https://youtu.be/nUPYDKHNbQI)
+A web-based donation and disaster tracking system developed as part of the **Applied Programming module**. This project simulates a real-world scenario for a fictional nonprofit, the **Disaster Alleviation Foundation**, and showcases secure, scalable software development using modern web technologies.
 
-## Tech Stack
-**Client**: HTML, C# (ASP.NET 5 + Identity), CSS, Bootstrap
+---
 
-**Server**: Azure SQL Database, Azure Devops (automatically build and test code), Boards, Azure App Services, Azure repos for version control
+## 📖 About the Project
 
-## Features
-- Users can log in securely to the web application and edit information.
-- Users can make monetary and goods donations.
-- Users can choose whether to donate publicly or anonymously.
-- When donating goods, users can select from pre-configured categories or make their own.
-- Users can load new disasters on the system.
-- Non registered users, can view pages showing them the:
-  -   Total monetary and goods donations received.
-  -   Currently active disasters, with all donations allocated to them.
- 
-# Disaster Alleviation Foundation
+This application was created to assist organizations in managing and tracking disaster relief efforts. It enables secure user logins, monetary and goods donations, disaster tracking, and transparent reporting to the public. Designed with real-world considerations, the app follows the Disaster Alleviation Foundation's values of **transparency** and **accountability**.
 
-The Disaster Alleviation Foundation, a non-profit organisation, has approached you to build a system for them. The foundation’s mission is to provide practical aid during disasters. They receive donations from various sources and need a system to track what is available and what has been dispatched to help with which disaster.
+---
 
-Donations can be made by individuals, companies, other organisations, and even governments. Donations can be goods (clothes, non-perishable foods, etc.) or monetary. Donors can choose to remain anonymous.
+## 💻 Tech Stack
 
-The Disaster Alleviation Foundation then needs to track what happens with the donations. For example, goods can be dispatched to help with a disaster. Money can either be paid out (for example, to a local community organisation) or used to purchase goods that are then dispatched to a disaster area.
+**Client-side:**
+- `HTML`, `CSS`, `Bootstrap`
+- `C#` (ASP.NET 5 with Identity for authentication)
 
-The Disaster Alleviation Foundation has transparency as one of its core values. It is important to them that the collected data is accurate and always available to the right stakeholders. That is why they want a web application with some pages visible to everyone, with summarised information, and other pages accessible only to their employees (for editing data).
+**Server-side:**
+- `Azure SQL Database`
+- `Azure DevOps`: CI/CD pipelines, Boards for task management, Repos for version control
+- `Azure App Services` for cloud deployment
 
-## Requirements
+---
 
-1. The web application must use the colour scheme of the foundation – purple and orange.
-2. Users must log in securely to the web application to be able to edit information.
-3. The web application must allow authorised users to capture new monetary donations. The date and amount are mandatory, but the donor may decide to remain anonymous.
-4. The web application must allow authorised users to capture new goods donations. The date, number of items, category, and description of each item are mandatory. But the donor may decide to remain anonymous.
-5. The web application must be pre-configured with the following categories of goods:
-   - Clothes
-   - Non-perishable foods
+## 🔐 Core Features
 
-6. The web application must allow authorised users to define new categories of goods.
-7. The web application must allow authorised users to capture a new disaster. The data for a disaster includes the start date and end date, the location, and a description. It must also be possible to specify the required aid types, such as water provision, clothing, food, etc.
-8. The web application must allow authorised users to view the following lists:
-   - All incoming monetary donations
-   - All incoming goods donations
-   - All disasters
+### 🧑‍💼 For Registered Users
+- Secure login via ASP.NET Identity
+- Submit **monetary** or **goods** donations
+- Choose to donate **anonymously or publicly**
+- Add new disasters (location, date, required aid types, etc.)
+- View and manage:
+  - All **monetary donations**
+  - All **goods donations**
+  - All **disasters**
+- Define and manage goods categories
+- Allocate money/goods to disasters (Part 2 / PoE)
+- Record purchases made with available funds (Part 2 / PoE)
 
-9. The web application must allow authorised users to allocate money to an active disaster. (Part 2 and PoE only)
-10. The web application must allow authorised users to allocate goods to an active disaster. (Part 2 and PoE only)
-11. The web application must allow authorised users to capture the purchase of goods using available money. This means that the available money decreases, and the goods are added to the inventory of available goods and allocated to a specific disaster. (Part 2 and PoE only)
+### 🌍 For the Public (No Login Required)
+- View total **monetary donations received**
+- View total **goods donations**
+- Explore a list of **currently active disasters** with resources allocated
 
-12. The web application must have a publicly accessible page that shows the following information (PoE only):
-   - Total monetary donations received
-   - Total number of goods received
-   - Currently active disasters, with the money and goods allocated to the disaster.
+---
 
-[Note: 1 Fictional organisation. Any resemblance to a real organisation is purely coincidental.]
+## 🧾 Project Requirements Met
 
-© The Independent Institute of Education (Pty) Ltd 2022
+✅ Secure login for internal staff  
+✅ Public access to summary information  
+✅ Anonymous donation option  
+✅ Dynamic goods category management  
+✅ Transparency-focused dashboard  
+✅ Integration with Azure DevOps for automated builds, testing, and deployment  
+✅ Consistent branding with the Foundation’s **purple and orange** theme
+
+---
+
+## 📷 Screenshots
+
+## 🎨 Redesign In Progress
+
+Currently working on a **UI/UX redesign** of the Disaster Alleviation Web Application to enhance usability, responsiveness, and visual appeal.
+
+### 🔁 Original Design
+> A basic, functional layout with core features in place.
+
+![Original Design](https://github.com/user-attachments/assets/ddec2967-d97e-48c9-9c13-16a6e57f5efd)
+
+### 🚧 Redesigned Interface (In Progress)
+> Modern layout using improved component styling, clearer data presentation, and mobile responsiveness.
+
+![Redesigned Interface](https://github.com/user-attachments/assets/07c191bc-9d9f-4708-a16f-2bba998b38ae)
+
+
+### ✨ What's New in the Redesign
+- Simplified navigation and information hierarchy
+- Enhanced data visualization
+- Improved accessibility and color contrast
+- Mobile-first responsive layout
+
+---
+
+## 🏛️ The Organization
+
+The **Disaster Alleviation Foundation** is a fictional non-profit organization with a mission to deliver practical, timely aid during disasters. This app helps them streamline operations and reinforce their commitment to transparency with real-time data reporting and accessible dashboards.
+
+---
+
+## 🚀 How to Run the Project Locally
+
+> _Ensure you have Visual Studio and SQL Server/Azure setup._
+
+```bash
+git clone https://github.com/Denzel-Witbooi/Disaster-Alleviation-Web.git
+cd Disaster-Alleviation-Web
+
 
 [Previous .NET 5 Project](https://github.com/Denzel-Witbooi/DisasterReliefWebApp)
 
